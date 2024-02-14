@@ -29,6 +29,7 @@ public class MathUtilsTest {
     public void testSubtract() {
         assertEquals(10, mu.subtract(15, 5));
         assertEquals(-10, mu.subtract(15, 25));
+        assertEquals(10, mu.subtract(15, 25));
     }
 
     @Test
